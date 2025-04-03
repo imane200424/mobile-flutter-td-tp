@@ -1,0 +1,11 @@
+name: api_client
+description: A simple API client in Dart
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  http: ^0.13.3
+
+executables:
+  api_client: script: client.dart
